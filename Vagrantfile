@@ -1,4 +1,4 @@
-rootFolder = ENV["HOST_PORT"]
+rootFolder = ENV["ROOT_FOLDER"]
 
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-18.04"
